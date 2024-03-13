@@ -10,7 +10,7 @@ These fractured images have a fracture count associated with it. It ranges betwe
 
 Python Code to extract image files:
 
-'''python
+```
 import os
 import cv2
 
@@ -43,4 +43,5 @@ for dirname, _, filenames in os.walk('/kaggle/input/fracatlas/FracAtlas/images/N
                     break
         except:
             print(f"Error processing image {img_path}")
-'''
+```
+
