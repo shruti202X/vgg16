@@ -8,7 +8,7 @@ Out of this 3366 images are not fractures images and 717 are fractured images.
 
 These fractured images have a fracture count associated with it. It ranges between 1 to 5 and it is 0 for non fractured images.
 
-Python Code to extract image files:
+## Python Code to extract image files:
 
 ```python
 import os
