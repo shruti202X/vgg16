@@ -1,4 +1,4 @@
-# VGG16 Transfer Learning Project
+# Transfer Learning using VGG16
 
 This project demonstrates the use of VGG16, a pre-trained convolutional neural network, for transfer learning.
 
