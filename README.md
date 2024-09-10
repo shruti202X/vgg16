@@ -28,9 +28,12 @@ For this project, we are using [Fracatlas Dataset](https://www.kaggle.com/datase
 
 ## Model Architecture
 
-The VGG16 model is a 16-layer deep convolutional neural network, pre-trained on ImageNet. In this project, we:
-- Remove the fully connected layers.
-- Add custom dense layers for fine-tuning to adapt to the specific dataset.
+We used the 13 convolutional layers of VGG16 for feature extraction and replace the fully connected layers with a custom head tailored for binary classification. The custom layers added are as follows:
+
+- **Global Average Pooling**: This layer summarizes the presence of features across the spatial dimensions.
+- **Dense Layer**: A fully connected layer with 128 units, using the ReLU activation function. A kernel regularizer (l2) is applied to prevent overfitting.
+- **Dropout Layer**: To prevent overfitting, a dropout layer is added with a 50% dropout rate, randomly setting half of the neurons to zero during each training step.
+- **Output Layer**: A single neuron with a sigmoid activation function is used for binary classification.
 
 ## Result
 
