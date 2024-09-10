@@ -2,7 +2,7 @@
 
 This project demonstrates the use of VGG16, a pre-trained convolutional neural network, for transfer learning.
 
-The full code can be accessed using [this](https://github.com/shruti202X/vgg16/blob/main/FracAtlas/TransferLearning/vgg-model-9.ipynb) jupyter notebook.
+The full code can be accessed using [this](FracAtlas/TransferLearning/vgg-model-9.ipynb) jupyter notebook.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -16,7 +16,7 @@ Developed by the Visual Geometry Group at the University of Oxford, VGG16 stands
 
 At its core, VGG16 employs a series of small 3x3 convolutional filters with a stride of 1 pixel and a padding of 1 pixel, facilitating the preservation of spatial information throughout the network. By utilizing such small filters, VGG16 achieves a deeper network architecture while maintaining a manageable number of parameters. Additionally, max-pooling layers interspersed between convolutional blocks serve to down-sample feature maps, enhancing computational efficiency and reducing overfitting.
 
-img here!!
+![Vgg16](vggImg.png)
 
 One of the defining characteristics of VGG16 is its homogeneity in architecture, where each convolutional block comprises multiple convolutional layers followed by a max-pooling layer. This uniformity simplifies model design and fosters interpretability, making VGG16 an attractive choice for researchers and practitioners alike. Furthermore, the availability of pre-trained weights on large-scale image datasets such as ImageNet has accelerated its adoption and facilitated transfer learning, enabling the model to be repurposed for various image recognition tasks with minimal data requirements.
 
