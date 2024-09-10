@@ -2,7 +2,7 @@
 
 This project demonstrates the use of VGG16, a pre-trained convolutional neural network, for transfer learning.
 
-The full code can be accessed [here](https://github.com/shruti202X/vgg16/blob/main/FracAtlas/TransferLearning/vgg-model-9.ipynb).
+The full code can be accessed using [this](https://github.com/shruti202X/vgg16/blob/main/FracAtlas/TransferLearning/vgg-model-9.ipynb) jupyter notebook.
 
 ## Table of Contents
 1. [Introduction](#introduction)
